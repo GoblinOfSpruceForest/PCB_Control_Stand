@@ -1,0 +1,27 @@
+{
+    "stend": {
+        "writeDatabase": 1,
+        "writeConsole": 1,
+        "productSerialNum": "2109AU98",
+        "brigadeNum": 1
+    },
+    "mongoDB": {
+        "address": "mongodb://localhost:27017/",
+        "database": "controlStend",
+        "collection": "stend"
+    },
+    "mercury230": {
+        "port": "/dev/ttyUSB0",
+        "boudrate": 9600,
+        "timeout": 1000,
+        "idMercury230": 13,
+        "levelAccess": 1,
+        "password": 111111
+    },
+    "stm32": {
+        "port": "/dev/ttyACM1",
+        "boudrate": 19200,
+        "timeout": 1000,
+        "idStm32": 10
+    }
+}
